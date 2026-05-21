@@ -1,0 +1,31 @@
+.heading {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 300;
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+}
+.heading :global(em) {
+  font-style: italic;
+  color: var(--teal-deep);
+}
+
+/* Tone variants — match the original CSS sizes. */
+.section {
+  font-size: clamp(40px, 5vw, 72px);
+}
+.areas {
+  font-size: clamp(40px, 5vw, 72px);
+  color: white;
+  margin-bottom: 24px;
+}
+.areas :global(em) {
+  color: #94d6dd;
+}
+.big {
+  font-size: clamp(48px, 7vw, 120px);
+}
+.final {
+  font-size: clamp(56px, 8vw, 140px);
+  line-height: 1;
+}

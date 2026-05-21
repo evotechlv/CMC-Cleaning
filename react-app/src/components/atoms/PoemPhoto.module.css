@@ -1,0 +1,15 @@
+.poemPhoto {
+  position: relative;
+  overflow: hidden;
+  background: var(--paper);
+}
+.poemPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1.2s cubic-bezier(0.22, 0.65, 0.13, 1);
+  display: block;
+}
+.poemPhoto:hover img {
+  transform: scale(1.04);
+}

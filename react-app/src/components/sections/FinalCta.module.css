@@ -1,0 +1,18 @@
+.cta {
+  padding: 240px 36px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.actions {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  margin-top: 64px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .cta { padding: 140px 22px; }
+  .actions { gap: 32px; }
+}

@@ -1,0 +1,33 @@
+.menu {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 600;
+  background: var(--bg);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.menu.open {
+  display: flex;
+}
+.menu a {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 36px;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+.close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--ink-soft);
+}

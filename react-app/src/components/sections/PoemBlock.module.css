@@ -1,0 +1,17 @@
+/* Shared chrome for every "poem-block" section. */
+.block {
+  padding: 120px 36px;
+  position: relative;
+}
+.inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .block {
+    padding: 80px 22px;
+  }
+}
